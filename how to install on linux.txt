@@ -1,0 +1,14 @@
+========== install =============================================
+1) upload to /usr/sbin/chatter
+2) change permissions to 755 for executable
+3) upload /etc/init/chatter.conf
+4) upload /etc/init.d/chatter
+5) chamge permissions to 755 for script
+6) in terminal: systemctl enable chatter.service
+7) SUCCESS! :)
+
+========== start service =======================================
+service chatter start
+========== stop service ========================================
+service chatter stop
+================================================================
