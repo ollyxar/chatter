@@ -64,3 +64,12 @@ __recovery/
 
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
 *.stat
+
+# Idea settings
+.idea/
+
+# Lazarus settings
+*.lps
+
+# Lazarus binary compiled
+/src/lib/
