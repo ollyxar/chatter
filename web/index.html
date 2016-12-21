@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatter</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="chatter.css" media="screen">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>This is example of Chatter</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="login" class="control-label">Login:</label>
+                    <input id="login" type="text" class="form-control" placeholder="Name" value="Michael">
+                </div>
+                <div class="form-group">
+                    <label for="avatar" class="control-label">Picture</label>
+                    <input id="avatar" type="text" class="form-control" placeholder="picture"
+                           value="http://www.cosplayisland.co.uk/files/pictures/picture-3722.gif">
+                </div>
+                <div class="form-group">
+                    <label for="user_id" class="control-label">User ID</label>
+                    <input id="user_id" type="number" class="form-control" placeholder="ID" value="1">
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div class="chat-block" id="chatt-wrapper">
+                <div class="chat-header bg-primary">Chat <span class="logout-chatt" title="Logoff"></span></div>
+                <div class="chat-body">
+                    <ul class="chatt-header"></ul>
+
+                    <div id="chatt" class="no-chatt">
+                        <ul class="chatt">
+                            <li class="no-chatt-item btn-primary">Enter</li>
+                        </ul>
+                        <div class="chatt-controls">
+                            <input type="text" id="c_post" placeholder="type text here..." class="form-control">
+                            <button class="main-button smiles"><i class="emoji icon-smile"></i></button>
+                            <button class="main-button btn" type="submit">ok</button>
+                        </div>
+                        <div class="smiles-block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="chatter.js"></script>
+</body>
+</html>

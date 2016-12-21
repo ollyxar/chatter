@@ -1,0 +1,112 @@
+ul.chatt li {
+    list-style-type: none;
+}
+
+#chatt {
+    position: relative;
+}
+
+#chatt input {
+    padding-right: 55px;
+}
+
+#chatt .main-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.chatt {
+    overflow-y: auto;
+    height: 450px;
+    padding: 0 6px;
+    background: #fff;
+}
+
+.logout-chatt {
+    background: url(http://stat.yummyanime.com/img/sprite.png) 0 -24px no-repeat;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.no-chatt .chatt {
+    height: 100px;
+}
+
+.no-chatt .chatt-controls {
+    display: none;
+}
+
+.no-chatt-item {
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin:  30px auto auto;
+    cursor: pointer;
+}
+
+.chat-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+}
+
+.chat-item img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 6px 5px 0;
+    vertical-align: top;
+    box-shadow: 0 0 0 1px #e2e2e2;
+}
+
+.chat-item:last-child {
+    border-bottom: none;
+}
+
+.post {
+    word-break: break-all;
+    margin-top: 20px;
+}
+
+.caption {
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 5px;
+}
+
+.chat-block {
+    width: 297px;
+    z-index: 10;
+    transition: all .5s;
+    margin: 0 auto 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.chat-header {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 29px;
+}
+
+.item-time {
+    font-size: 10px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
