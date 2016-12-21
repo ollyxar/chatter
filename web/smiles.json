@@ -1,0 +1,209 @@
+{
+  "smiles": [
+    {
+      "key": "😊",
+      "value": "smile"
+    },
+    {
+      "key": "😌",
+      "value": "sleep"
+    },
+    {
+      "key": "😃",
+      "value": "surprise"
+    },
+    {
+      "key": "😉",
+      "value": "wink"
+    },
+    {
+      "key": "😆",
+      "value": "rofl"
+    },
+    {
+      "key": "😂",
+      "value": "lol"
+    },
+    {
+      "key": "😅",
+      "value": "hehe"
+    },
+    {
+      "key": "😜",
+      "value": "crazy"
+    },
+    {
+      "key": "😁",
+      "value": "grinning"
+    },
+    {
+      "key": "😋",
+      "value": "tongue"
+    },
+    {
+      "key": "😍",
+      "value": "in-love"
+    },
+    {
+      "key": "😎",
+      "value": "cool"
+    },
+    {
+      "key": "🙁",
+      "value": "sad"
+    },
+    {
+      "key": "😏",
+      "value": "mmm"
+    },
+    {
+      "key": "😪",
+      "value": "tired"
+    },
+    {
+      "key": "😢",
+      "value": "cry"
+    },
+    {
+      "key": "😭",
+      "value": "hysterics"
+    },
+    {
+      "key": "blood",
+      "value": "blood-tears"
+    },
+    {
+      "key": "😩",
+      "value": "despair"
+    },
+    {
+      "key": "😮",
+      "value": "shock"
+    },
+    {
+      "key": "😐",
+      "value": "silence"
+    },
+    {
+      "key": "😠",
+      "value": "angry"
+    },
+    {
+      "key": "😡",
+      "value": "very-angry"
+    },
+    {
+      "key": "😇",
+      "value": "angel"
+    },
+    {
+      "key": "😨",
+      "value": "fear"
+    },
+    {
+      "key": "😱",
+      "value": "screaming"
+    },
+    {
+      "key": "😳",
+      "value": "shame"
+    },
+    {
+      "key": "😵",
+      "value": "contusion"
+    },
+    {
+      "key": "😷",
+      "value": "sick"
+    },
+    {
+      "key": "😙",
+      "value": "kiss"
+    },
+    {
+      "key": "😈",
+      "value": "devil"
+    },
+    {
+      "key": "❤️",
+      "value": "heart"
+    },
+    {
+      "key": "👍",
+      "value": "thumbs-up"
+    },
+    {
+      "key": "👎",
+      "value": "thumbs-down"
+    },
+    {
+      "key": "👆",
+      "value": "finger"
+    },
+    {
+      "key": "✌️",
+      "value": "peace"
+    },
+    {
+      "key": "👌",
+      "value": "ok"
+    },
+    {
+      "key": "🌚",
+      "value": "luna"
+    },
+    {
+      "key": "😺",
+      "value": "cat"
+    },
+    {
+      "key": "🔫",
+      "value": "gun"
+
+    },
+    {
+      "key": "🌞",
+      "value": "sun"
+    },
+    {
+      "key": ":)",
+      "value": "smile"
+    },
+    {
+      "key": ":(",
+      "value": "sad"
+    },
+    {
+      "key": ";)",
+      "value": "wink"
+    },
+    {
+      "key": ":D",
+      "value": "rofl"
+    },
+    {
+      "key": ":P",
+      "value": "tongue"
+    },
+    {
+      "key": ":*",
+      "value": "kiss"
+    },
+    {
+      "key": "-_-",
+      "value": "silence"
+    },
+    {
+      "key": "^_^",
+      "value": "cat"
+    },
+    {
+      "key": "o_o",
+      "value": "shock"
+    },
+    {
+      "key": "<3",
+      "value": "heart"
+    }
+  ]
+}
